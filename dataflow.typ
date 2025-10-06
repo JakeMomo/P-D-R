@@ -15,7 +15,7 @@ notations :
 - inital marking : le nombre de tokens initiaux dans un buffer. Un bon nombre est proportionnel au gcd det taux de prod et conso.
 - débit d'un acteur sous un schedule s : $l(t) = lim_n n/(s(t,n))$, avec s(t,n) les dates de la n-ième exécution de t. En gros le nombre moyen de fois qu'un acteur s'exécute dans la partie périodique.
 - Si G est consistant et fortement connecté, $l(t) * Z_t$ est une constante.
-- le débit d'un graphe est $Th(G) = $l(a)/N_a$ pour n'importe quel acteur a.
+- le débit d'un graphe est $"Th"(G) = l(a)/N_a$ pour n'importe quel acteur a.
 - scheduling K-périodique : en gros, s(t, q + K) = s(t, q) + w. Le débit de l'acteur est K/w, le débit du schedule est Z
 
 ]
